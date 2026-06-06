@@ -14,7 +14,9 @@ body{
     background-color: black;
     color: white;
     padding: 0;
+    margin: 0;
 }
+
 html, body 
 {
 width: 100%;
@@ -39,6 +41,7 @@ a{
     margin: 0;
 box-sizing: border-box;
 
+
   
 }
 
@@ -50,7 +53,7 @@ box-sizing: border-box;
     display: flex;
     justify-content: space-around;
     align-items: center;
-   
+ 
 }
 .header_logo
 {
@@ -79,6 +82,7 @@ box-sizing: border-box;
     outline: none;
     cursor: pointer;
     transition: 0.5s;
+   
 
 }
 .menu_link:focus{
@@ -94,12 +98,15 @@ box-sizing: border-box;
     font-size: 70px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
+   margin-bottom: 20px;
+    margin-top: 0px;
    
 }
 .hero_content
 {
     text-align: center;
     padding-top: 100px;
+    font-size: 30px;
 }
 .topface
 {
@@ -247,6 +254,86 @@ gap: 30px;
 {
     text-align: center;
 }
+.work2
+{
+    width: 300px;
+     outline: 2px solid white;
+     outline-offset:5px ;
+         border-radius: 12px;
+}
+.worktwo
+{
+    text-align: center;
+}
+.superprice
+{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ margin-bottom: 10px;
+ 
+
+}
+.man
+{
+  min-width: 180px;
+  font-size: 20px;
+}
+.dot 
+{
+   flex: 1;
+   text-align: center;
+   margin: 0px 5px;
+   margin-bottom: 10px;
+
+}
+.cost {
+white-space: nowrap;
+margin-left: 0;
+font-weight: bold;
+text-decoration: underline;
+}
+.www
+{
+    text-align: end;
+}
+.redbluered
+{
+    width: 20px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.ssss
+{
+    text-align: center;
+}
+.bearbarb
+{
+    font-size: 34px;
+  
+}
+.adresstwo
+{
+    color: black;
+    text-align:end;
+  font-size: 19px;
+  margin-top: 0;
+  padding-top: 0;
+}
+.kachestvo
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.which
+{
+    font-size: 50px;
+   
+}
+.Works
+{
+    margin-top: 0;
+}
   @media ( max-width: 740px)
     {
 .header_container
@@ -261,13 +348,14 @@ gap: 30px;
     cursor: pointer;
     text-align: center;
     width: 400px;
-
+   
 }
 .menu_list{
     display: flex;
     justify-content: space-around;
    flex-wrap: wrap;
    
+  
     padding-bottom: 10px;
     gap: 30px;
     font-size: 20px;
@@ -303,5 +391,74 @@ gap: 30px;
 .worktwo
 {
     text-align: center;
+}
+.superprice
+{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ margin-bottom: 10px;
+ 
+
+}
+.man
+{
+  min-width: 180px;
+  font-size: 20px;
+}
+.dot 
+{
+   flex: 1;
+   text-align: center;
+   margin: 0px 5px;
+   margin-bottom: 10px;
+
+}
+.cost {
+white-space: nowrap;
+margin-left: 0;
+font-weight: bold;
+text-decoration: underline;
+}
+.www
+{
+    text-align: end;
+}
+.redbluered
+{
+    width: 20px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.ssss
+{
+    text-align: center;
+}
+.bearbarb
+{
+    font-size: 34px;
+  
+}
+.adresstwo
+{
+    color: black;
+    text-align:end;
+  font-size: 19px;
+  margin-top: 0;
+  padding-top: 0;
+}
+.kachestvo
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.which
+{
+    font-size: 45px;
+   
+}
+.Works
+{
+    margin-top: 0;
 }
     }
